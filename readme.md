@@ -8,9 +8,20 @@ You probably want [`imagemin-pngquant`](https://github.com/imagemin/imagemin-png
 ## Install
 
 ```
+$ export PNGQUANT_BINARY_SITE=https://npm.taobao.org/mirrors
 $ npm install pngquant-bin
 ```
 
+## Install alias
+```sh
+# npm alias install
+$ export PNGQUANT_BINARY_SITE=https://npm.taobao.org/mirrors
+$ npm install pngquant-bin@npm:@cross2d/pngquant-bin --save
+
+# yarn alias install
+export PNGQUANT_BINARY_SITE=https://npm.taobao.org/mirrors
+$ yarn add pngquant-bin@npm:@cross2d/pngquant-bin
+```
 
 ## Usage
 
